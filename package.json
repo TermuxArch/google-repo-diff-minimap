@@ -1,0 +1,32 @@
+{
+  "name": "google-repo-diff-minimap",
+  "main": "./lib/main.coffee",
+  "version": "0.0.0",
+  "description": "A minimap binding for the google-repo-diff package",
+  "author": "thislooksfun",
+  "keywords": [
+    "google",
+    "repo",
+    "google-repo",
+    "diff",
+    "minimap"
+  ],
+  "repository": "https://github.com/thislooksfun/google-repo-diff-minimap",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "consumedServices": {
+    "google-repo": {
+      "versions": {
+        "1.0.0": "consumeGoogleRepoServiceV1"
+      }
+    },
+    "minimap": {
+      "versions": {
+        "1.0.0": "consumeMinimapServiceV1"
+      }
+    }
+  },
+  "dependencies": {}
+}
