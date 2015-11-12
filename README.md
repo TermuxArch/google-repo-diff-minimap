@@ -1,5 +1,4 @@
-# google-repo-diff-minimap package
+# [google-repo-diff](https://atom.io/packages/google-repo-diff)
 
-A short description of your package.
-
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Working with [Google repo](https://code.google.com/p/git-repo/) is now beautiful.  
+This plugin adapts the [git-diff minimap plugin](https://atom.io/packages/minimap-git-diff) to work with the [google-repo](https://atom.io/packages/google-repo) package.
